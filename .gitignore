@@ -1,0 +1,5 @@
+heltec-nodes/.vscode/ipch/*
+heltec-nodes/gateway/.vscode/ipch/*
+heltec-nodes/node/.vscode/ipch/*
+heltec-nodes/node1/.vscode/ipch/*
+heltec-nodes/node2/.vscode/ipch/*

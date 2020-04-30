@@ -1,0 +1,26 @@
+
+.section{
+  .section_title{
+    padding:20px;
+    padding-bottom:12px;
+    font-size:20px;
+    font-weight:700;
+    margin-top:auto;
+    color:#333;
+  }
+}
+.cont{
+  overflow-x: scroll;
+}
+.horizontal{
+  display:flex;
+  flex-wrap:wrap;
+  overflow-x: scroll;
+  width: 524px;
+  &::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+  }
+}
+
+/* optional: show position indicator in red */

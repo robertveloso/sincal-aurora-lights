@@ -1,0 +1,49 @@
+@import "../colors.scss";
+
+.image_container{
+  display:flex;
+  overflow-x: scroll;
+  display:flex;
+  flex-wrap:nowrap;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+  }
+  g{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}
+.image_container_small{
+  .image{
+    height:150px;
+  }
+}
+.image_container_big{
+  .image{
+    height:200px;
+
+  }
+}
+.label{
+  color:#666;
+  font-size:19px;
+  font-weight:300;
+  margin-bottom:8px;
+  display:block;
+}
+.image{
+  min-width:130px;
+  height:150px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 50%;
+  margin:8px 4px;
+  border-radius:5px;
+  position:relative;
+  &.selected{
+    border:8px solid $primaryColor;
+  }
+}
