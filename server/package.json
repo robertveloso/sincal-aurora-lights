@@ -18,7 +18,7 @@
     "classnames": "^2.2.5",
     "compression": "^1.6.2",
     "express": "^4.15.0",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "mongodb": "^2.2.24",
     "mongojs": "^2.4.0",
     "morgan": "^1.8.1",
